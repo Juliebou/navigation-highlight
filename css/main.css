@@ -29,7 +29,9 @@ color: #cc1465;
 font-weight: bold;
 text-transform: uppercase;
 text-align: center;
-padding-bottom: 0;
+padding: 0;
+margin: 0;
+margin-top: .3rem;
 }
 
 header {
@@ -41,8 +43,33 @@ nav {
   justify-content: center;
 }
 
-a {
+nav a {
+  font-size: 1.125rem;
   padding: .75em;
+  margin: .3em;
+  margin-top: 0;
   text-decoration: none;
   color: #2f2d13;
+  background-color: #b2a212;
+  radius: 4px;
+}
+
+h2 {
+  font-family: "Sigmar One", cursive;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #cc1465;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: .75em;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe500;
+  padding: .5em;
 }
